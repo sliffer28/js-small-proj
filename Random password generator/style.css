@@ -1,0 +1,84 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-image: url('pexels.jpg');
+    background-size: cover;
+}
+
+h1{
+    color: rgb(143, 3, 3);
+}
+
+form{
+    background-image: url(bg1.jpg);
+    background-size: contain;
+    text-align: center;
+    max-width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 15px rgba(36, 36, 36, 0.87);
+    font-size: 1.2rem;
+    height: 530px;
+}
+
+#length{
+    width: 20%;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+
+#generator{
+    text-align: left;
+    font-weight: bold;
+}
+button{
+    margin-top: 15px;
+    font-size: 1.5em;
+    background-color: rgba(182, 4, 4, 0.925);
+    padding: 5px 15px;
+    border: 3px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.5s smooth;
+    -webkit-transition: 0.5s smooth;
+    -moz-transition: 0.5s smooth;
+    -ms-transition: 0.5s smooth;
+    -o-transition: 0.5s smooth;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: white;
+    color: rgba(182, 4, 4, 0.925);
+    font-weight: bold;
+}
+
+p{
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+#result1{
+    color: rgba(182, 4, 4, 0.925);
+    -webkit-text-stroke: 0%;
+}
+
+#result{
+    color:  transparent;
+    -webkit-text-stroke: 2px black;
+}
